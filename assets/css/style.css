@@ -1,0 +1,15 @@
+img{
+    padding: 75px;
+    width: 300px;
+    height: 200px;
+}
+
+.container{
+    width: 1200px;
+   
+}
+
+body{
+    background-image: url(../img/race.jpg);
+    background-repeat:space;
+}
