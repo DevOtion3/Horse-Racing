@@ -3,12 +3,12 @@ var startRaceButton = $("#startRaceButton");
 
 startRaceButton.click(function(){
     var horse1 = $("#horse1");
-var horse2 = $("#horse2");
-var horse3 = $("#horse3");
-var horse1Speed = speed;
-var horse2Speed = speed;
-var horse3Speed = speed;
-var speed =  Math.floor(Math.random() * 4);
+    var horse2 = $("#horse2");
+    var horse3 = $("#horse3");
+    var horse1Speed = speed;
+    var horse2Speed = speed;
+    var horse3Speed = speed;
+    var speed =  Math.random() * 4;
 
 
     if (horse1Speed === 1) {
